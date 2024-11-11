@@ -2,6 +2,8 @@
 
 This project is a user registration web application built with a **React** frontend and a **Node.js / Express** backend. It allows users to view, add, update, and delete registered users. The registered user data is stored in a JSON file for backend persistence.
 
+![ui](https://github.com/user-attachments/assets/3e1ddff0-cc14-4ca5-871f-78f2cefdf4b0)
+
 ### Project Structure
 
 The project is organized into a backend and a frontend folder:
