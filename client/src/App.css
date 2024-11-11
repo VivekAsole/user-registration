@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  margin: 0;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 2.5rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  text-align: center;
+  color: #1e3a8a;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+/* Form Styles */
+.user-form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.user-form input {
+  flex: 1;
+  padding: 0.75rem;
+  border: 2px solid #e0e7ff;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #f9fafb;
+  color: #374151;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.user-form input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 8px rgba(99, 102, 241, 0.3);
+  outline: none;
+}
+
+.user-form button {
+  background-color: #1e40af;
+  color: #ffffff;
+  padding: 0.75rem 1.75rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.user-form button:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
+}
+
+/* Table Styles */
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.user-table th, .user-table td {
+  padding: 1rem;
+  text-align: left;
+  font-size: 1rem;
+  color: #374151;
+}
+
+.user-table th {
+  background-color: #4f46e5;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.user-table tr:nth-child(even) {
+  background-color: #f1f5f9;
+}
+
+.user-table tr:hover {
+  background-color: #e0e7ff;
+}
+
+.user-table td {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Button Styles in Table */
+.user-table button {
+  background-color: #ef4444;
+  color: #ffffff;
+  margin: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.user-table button:hover {
+  background-color: #dc2626;
+  transform: translateY(-2px);
+}
+
+.user-table button.edit-button {
+  background-color: #10b981;
+}
+
+.user-table button.edit-button:hover {
+  background-color: #059669;
+}
+
